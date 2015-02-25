@@ -329,7 +329,7 @@ class MP {
  */
 class MPRestClient {
 
-    const API_BASE_URL = "https://api.mercadopago.com";
+    const API_BASE_URL = "https://api.mercadolibre.com";
 
     private static function get_connect($uri, $method, $content_type) {
         if (!extension_loaded ("curl")) {
